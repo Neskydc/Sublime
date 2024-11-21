@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+ nav {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #0a0a0a;    
+}
+
+nav h1{
+    font-size: 2.0em;
+    color: white;
+    margin-top: 0%;
+}
+
+h3{
+    font-size: 1.5em;
+    color: white;
+}
+
+h1, h3 span {
+    color:#007bff;
+}
+
+nav ul{ 
+    color: white;
+    list-style-type: none;    
+    display: flex;
+    gap: 1cm;
+    text-align: center;
+    justify-content: center;
+    position:fixed;
+    }
+ li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 0%;     
+}
+
+li a:hover{
+    color: #007bff;
+
+}
+.contact-btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    position:fixed; 
+}
+
+.contact-btn:hover{
+    color: rgb(125, 51, 51);
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+.intro h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #dcdcdc;
+}
+
+.intro h3 {
+    font-size: 2.5em;
+    color: white;
+    text-align: left;
+
+}
+
+.intro h3 span {
+    color: #007bff;
+}
+
+.intro p {
+    font-size: 1.1em;
+    margin: 1em 0 2em;
+    color: #cfcfcf;
+    max-width: 600px;
+    margin-left: 0%;
+    justify-content: left;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-left: 0%;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.hire-btn, .download-btn {
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hire-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.download-btn {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+/* nav{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 2em 2em;
+    gap: 5em;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    text-align: center;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 0%;
+    position: fixed;    
+}*/

@@ -1,0 +1,23 @@
+.fixed{
+ position: fixed;
+ right: 0;
+ top: 0;
+ background: rgb(163, 227, 195);
+
+}
+.sticky{
+    position: sticky;
+    left: 20px;
+    top: 0;
+    right: 25px;
+}
+.absolute{
+    width: 100vw;
+    height:45.7vw;
+    background-color: rgb(196, 127, 127);
+    top: 0;
+    position: absolute;
+}
+.relative{
+    position: relative;
+}

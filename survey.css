@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(14, 199, 14);
+    font-family:Verdana;
+    text-align:center;
+}
+form{
+    background-color: #fff;
+    max-width:500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(82, 44, 44, 0.5);
+    text-align: left;
+    margin-bottom: 25px;
+    display:inline-blockborder;
+    font-family: inherit;
+    border: 2px solid #777;
+    width: 100%;
+}
+button{
+    background-color: rgb(11, 227, 11);
+}
